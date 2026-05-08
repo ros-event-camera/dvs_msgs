@@ -18,7 +18,9 @@
   <depend condition="$ROS_VERSION == 2">rclcpp</depend>
   <exec_depend condition="$ROS_VERSION == 2">rosidl_default_runtime</exec_depend>
   <test_depend condition="$ROS_VERSION == 2">ament_lint_auto</test_depend>
-  <test_depend condition="$ROS_VERSION == 2">ament_lint_common</test_depend>
+  <test_depend condition="$ROS_VERSION ==
+			  2">ament_lint_common</test_depend>
+  <depend condition="$ROS_VERSION == 2">rosidl_typesupport_c</depend>
 
   <!-- common dependencies -->
   <depend>std_msgs</depend>
